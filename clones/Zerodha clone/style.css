@@ -1,3 +1,75 @@
-Body{
-    margin: 0;
+*{
+    margin: 0;padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:22px 82px 20px 82px;
+    top: 0px;
+    position: sticky;
+    box-shadow: 0 0 2px #fff;
+    background-color: #fff;
+    z-index: 3;
+}
+hr{
+    background-color: rgb(238, 234, 228);
+    border: none;
+    height: 0.5px;
+    position: relative;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+.image a img{
+    width: 130px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+
+}
+.hero img{
+    width: 620px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+}
+main h1{
+    font-size: 51px;
+    line-height: 1.5;
+    font-weight: 460;
+    color: rgb(65, 59, 59);
+}
+main h5{
+    font-size: 22px;
+    font-weight: 380;
+}
+main button{
+    background-color: #387ed1;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 25px 8px 25px;
+    color: white;
+    margin: 40px;
+    font-size: 22px;
+    font-weight: 450;
+    transition: 0.3s;
+}
+
+main button:hover{
+    background-color: #0c0c0c;
+    
+    
 }
